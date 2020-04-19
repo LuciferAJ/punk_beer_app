@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "29049088185",
+    "firebase_url": "https://punkbeerapp.firebaseio.com",
+    "project_id": "punkbeerapp",
+    "storage_bucket": "punkbeerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29049088185:android:629153d3c9c72bec5f9368",
+        "android_client_info": {
+          "package_name": "com.example.punkbeerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29049088185-46dg516i2d2e6n15n7loo1653f1dhkle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8Zomg1ozCxKgslBBEf9jcHvqFXo3pLyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29049088185-46dg516i2d2e6n15n7loo1653f1dhkle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

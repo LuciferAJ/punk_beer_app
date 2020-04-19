@@ -1,14 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:punkbeerapp/screens/home_page.dart';
+import './services/signin.dart';
 
-void main() {
+void main()async {
   runApp(MyApp());
 }
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: SignInPage(),
       theme: ThemeData(appBarTheme: AppBarTheme(color: Colors.black,textTheme:TextTheme(headline1:TextStyle(color: Colors.white))),),
     );
   }
